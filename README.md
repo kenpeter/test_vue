@@ -1,22 +1,21 @@
-# test_vue
+# Intro
 
-> A Vue.js project
+Tutorial based on https://www.youtube.com/watch?v=FWQSuskE5UA&list=PL55RiY5tL51p-YU-Uw90qQH419BM4Iz07&index=9&spfreload=5
 
-## Build Setup
-
-``` bash
-
-# install dependencies
+# Install
 
 npm install
 
-# serve with hot reload at localhost:8080
+# Run
 
-npm run dev
+* npm run dev
+* Visit localhost:8080
 
-# build for production with minification
+# App
 
-npm run build
-```
+* None
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# What I learned
+
+* Folder structure
+* App.vue file
