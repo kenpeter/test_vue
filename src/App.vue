@@ -1,7 +1,16 @@
+<!-- this is vue template -->
+
+<!-- template -->
 <template>
+  <!-- app -->
   <div id="app">
+    <!-- image logo -->
     <img src="./assets/logo.png">
+    
+    <!-- msg -->
     <h1>{{ msg }}</h1>
+    
+    <!-- doc -->
     <h2>Essential Links</h2>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
@@ -9,6 +18,7 @@
       <li><a href="https://gitter.im/vuejs/vue" target="_blank">Gitter Chat</a></li>
       <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
     </ul>
+    
     <h2>Ecosystem</h2>
     <ul>
       <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
@@ -20,9 +30,15 @@
 </template>
 
 <script>
+// export
+// default
 export default {
+  // name app, see above
   name: 'app',
+  // data, func ()
   data () {
+    // return obj
+    // msg
     return {
       msg: 'Welcome to Your Vue.js App'
     }
@@ -30,6 +46,7 @@ export default {
 }
 </script>
 
+<!-- style -->
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
